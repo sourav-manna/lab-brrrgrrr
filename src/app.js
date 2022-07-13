@@ -41,7 +41,7 @@ function renderAll() {
 /*function for paddy*/
 function renderPatty() {
   const top = document.createElement('img')
-  top.src = "/img/Burger/Top@2x.png" 
+  top.src = "./img/Burger/Top@2x.png" 
   const burger = document.getElementById("ingredients");
 
   console.log("checked")
@@ -51,7 +51,7 @@ function renderPatty() {
   burger.removeChild(burger.firstElementChild);
   /*add selected item*/
   item = document.createElement('img')
-  item.src = "/img/Burger/Patty@2x.png";
+  item.src = "./img/Burger/Patty@2x.png";
   item.id = "patty"
   burger.prepend(item);
   /*add burger top*/
@@ -68,7 +68,7 @@ function renderPatty() {
 
 function renderCheese() {
   const top = document.createElement('img')
-  top.src = "/img/Burger/Top@2x.png" 
+  top.src = "./img/Burger/Top@2x.png" 
   const burger = document.getElementById("ingredients");
 
   let item = document.getElementById("cheese");
@@ -77,7 +77,7 @@ function renderCheese() {
   burger.removeChild(burger.firstElementChild);
   /*add selected item*/
   item = document.createElement('img')
-  item.src = "/img/Burger/Cheese@2x.png";
+  item.src = "./img/Burger/Cheese@2x.png";
   item.id = "cheese"
   burger.prepend(item);
   /*add burger top*/
@@ -94,7 +94,7 @@ function renderCheese() {
 
 function renderTomatoes() {
   const top = document.createElement('img')
-  top.src = "/img/Burger/Top@2x.png" 
+  top.src = "./img/Burger/Top@2x.png" 
   const burger = document.getElementById("ingredients");
 
   let item = document.getElementById("tomato");
@@ -103,7 +103,7 @@ function renderTomatoes() {
   burger.removeChild(burger.firstElementChild);
   /*add selected item*/
   item = document.createElement('img')
-  item.src = "/img/Burger/Tomato@2x.png";
+  item.src = "./img/Burger/Tomato@2x.png";
   item.id = "tomato"
   burger.prepend(item);
   /*add burger top*/
@@ -120,7 +120,7 @@ function renderTomatoes() {
 
 function renderOnions() {
   const top = document.createElement('img')
-  top.src = "/img/Burger/Top@2x.png" 
+  top.src = "./img/Burger/Top@2x.png" 
   const burger = document.getElementById("ingredients");
 
   let item = document.getElementById("onion");
@@ -129,7 +129,7 @@ function renderOnions() {
   burger.removeChild(burger.firstElementChild);
   /*add selected item*/
   item = document.createElement('img')
-  item.src = "/img/Burger/Onion@2x.png";
+  item.src = "./img/Burger/Onion@2x.png";
   item.id = "onion"
   burger.prepend(item);
   /*add burger top*/
@@ -146,7 +146,7 @@ function renderOnions() {
 
 function renderLettuce() {
   const top = document.createElement('img')
-  top.src = "/img/Burger/Top@2x.png" 
+  top.src = "./img/Burger/Top@2x.png" 
   const burger = document.getElementById("ingredients");
 
   let item = document.getElementById("lettuce");
@@ -155,7 +155,7 @@ function renderLettuce() {
   burger.removeChild(burger.firstElementChild);
   /*add selected item*/
   item = document.createElement('img')
-  item.src = "/img/Burger/Lettuce@2x.png";
+  item.src = "./img/Burger/Lettuce@2x.png";
   item.id = "lettuce"
   burger.prepend(item);
   /*add burger top*/
