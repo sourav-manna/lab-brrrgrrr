@@ -223,7 +223,7 @@ function renderPrice(mode, amount){
 }
 
 function renderIngredientsBoard(item){
-  const header = document.getElementById("heading")
+  /*const header = document.getElementById("heading")*/
   const list_ing =  document.getElementsByClassName("items")
   const newitem = document.createElement('p')
   newitem.className = "items"
@@ -238,9 +238,9 @@ function renderIngredientsBoard(item){
   }
 
   if(flag == 0){
-    header.remove()
-    document.getElementById("menu").prepend(newitem)
-    document.getElementById("menu").prepend(header)
+    /*header.remove()*/
+    document.getElementById("menu").appendChild(newitem)
+    /*document.getElementById("menu").prepend(header)*/
   }
 
 }
